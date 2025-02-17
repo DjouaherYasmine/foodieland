@@ -1,0 +1,48 @@
+.recipe-container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.blue-box {
+    background-color: #E7FAFE;
+    width: 30%; /* Adjust width as needed */
+    height: 490px;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.nutrition-title {
+    font-size: 1.2em;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nutrition-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.8;
+}
+
+.nutrition-list li {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 10px 0;
+}
+
+
+.recipe-image-container {
+    width: 65%; /* Slightly less than 2/3 */
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 3%;
+    object-fit: cover;
+}
