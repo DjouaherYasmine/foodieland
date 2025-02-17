@@ -1,0 +1,59 @@
+.learn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    min-height: 400px;
+  }
+  
+  .learn-content {
+    flex: 1; /* Take up available space */
+    margin-right: 20px; /* Space between text and image */
+  }
+  
+  .learn-content h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .learn-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+  }
+  
+  .learn-button {
+    padding: 20px 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+    margin-top: 20px;
+
+  }
+  
+ 
+  
+  .learn-image {
+    flex: 1; /* Take up available space */
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .learn-image img {
+    max-width: 100%; /* Ensure the image scales */
+    height: auto;
+    border-radius: 10px;
+  }
+  

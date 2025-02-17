@@ -1,0 +1,77 @@
+.bottom {
+    margin : 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff; /* Adjust background color as needed */
+    padding: 10px 20px;
+    border-bottom: 1px solid #dcdcdc;
+  }
+
+
+.logo img {
+    height: 20px; /* Adjust size as needed */
+  }
+
+.logo p {
+    font-size: 14px;
+    font-family: 'Inter', 'sans-serif';
+    color: rgba(0, 0, 0, 0.6);
+    
+    
+}
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-item {
+    cursor: pointer; /* Makes it clear these are interactive elements */
+    color: #333; /* Adjust text color as needed */
+    font-weight: bold;
+    font-size:small;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 15px 30px;
+    margin: 30px;
+  }
+  
+  .foot p {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Inter', 'sans-serif';
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Center the paragraph exactly */
+  }
+  
+  .foot a {
+    font-size: 14px;
+    font-family: 'Inter', 'sans-serif';
+    color: #FF7967;
+    text-decoration: none;
+  }
+  
+  .social-icon {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+  }
+  
