@@ -1,0 +1,182 @@
+.blog-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers horizontally */
+    justify-content: center; /* Centers vertically if needed */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title7 {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.paragraph7 {
+    font-size: 15px;
+    font-family: 'Inter', 'sans-serif';
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+  
+  .wrapper7 {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    width: 100%; /* Ensure it takes the full width of the parent container */
+  }
+  
+  .input7 {
+    position: relative; /* Allow absolute positioning of the button */
+    width: fit-content; /* Shrinks container to the size of its contents */
+  }
+  
+  .text-input7 {
+    padding: 15px 20px;
+    width: 400px; /* Make the input longer */
+    border-radius: 15px;
+    border:  1px solid rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+  }
+
+  .text-input7:focus {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);  /* Remove any potential default border */
+  }
+  
+  .button7 {
+    position: absolute; /* Position button over the input */
+    right: 5px; /* Adjust this value to fine-tune positioning */
+    top: 50%; /* Vertically center the button relative to input */
+    transform: translateY(-50%); /* Ensure vertical centering */
+    padding: 12px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .container7 {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin-top : 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+  }
+  
+  .blog-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .blog-card {
+    display: flex;
+    background: white;
+    overflow: hidden;
+  }
+  
+  .blog-image {
+    width: 160px;
+    height: 120px;
+    border-radius: 15%;
+    object-fit: cover;
+  }
+  
+  .blog-content {
+    padding-left: 15px;
+  }
+  
+  .blog-title {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .blog-description {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .blog-author {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #666;
+  }
+  
+  .author-avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .date {
+    margin-left: auto;
+  }
+  
+  .sidebar {
+    flex: 1;
+  }
+  
+  .sidebar-title {
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .recipes7 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .recipe7-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .recipe7-card img {
+    width: 130px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-right: 12px;
+  }
+  
+  .recipe7-title {
+    font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  }
+  
+  .recipe7-author {
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  .ad-banner {
+    margin-top: 30px;
+  }
+  

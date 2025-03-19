@@ -1,0 +1,152 @@
+.paragraph-recipe{
+    font-size: 15px;  /* Font size in pixels */
+    font-family: 'Inter', sans-serif;
+    white-space: normal;  /* Allow text to wrap */
+    word-wrap: break-word;  /* Break long words if necessary */
+    color: rgba(0, 0, 0, 0.6);  
+  }
+
+.ingredients{
+    margin: 40px;
+  }
+
+  .container2 {
+    display: flex;
+    width: 100%;
+  }
+  
+  .ingredients-section {
+    width: 66%;
+    padding: 20px;
+  }
+  
+  .empty-section {
+    width: 34%;
+    background-color: #f8f8f8;
+  }
+  
+  .header2 {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 50px;
+  }
+  
+  .category2 {
+    margin-top: 20px;
+  }
+  
+  .header3 {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .ingredient {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* 10% opacity */  
+    padding: 20px ;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .checked {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  /* Hide default checkbox */
+input[type="checkbox"] {
+  appearance: none; /* Remove default styling */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%; /* Make it round */
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* When checked, change background to black */
+input[type="checkbox"]:checked {
+  background-color: black;
+  border: 2px solid black;
+}
+
+/* Create a white checkmark */
+input[type="checkbox"]::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%) rotate(45deg);
+  display: none; /* Hidden by default */
+}
+
+/* Show checkmark when checked */
+input[type="checkbox"]:checked::after {
+  display: block;
+}
+
+.recipe-list {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.title5 {
+  font-size: 22px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.recipe-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.recipe-image1 {
+  width: 130px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 12px;
+}
+
+.recipe-details {
+  flex: 1;
+}
+
+.recipe-title {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+.recipe-author {
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  color: gray;
+  margin-top: 5px;
+}
+
+.ads{
+  margin-top: 30px;
+}

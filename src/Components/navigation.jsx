@@ -20,10 +20,10 @@ function Navigation() {
           <NavLink to="/page2" className="nav-item">Recipes</NavLink>  {/* Link to Page2 */}
         </li>
         <li>
-          <div className="nav-item">Blog</div>
+          <NavLink to="/page3" className="nav-item">Blog</NavLink> {/* Link to Page3 */}
         </li>
         <li>
-          <div className="nav-item">Contact</div>
+          <NavLink to="/page4" className="nav-item">Contact</NavLink> {/* Link to Page3 */}
         </li>
         <li>
           <div className="nav-item">About Us</div>
