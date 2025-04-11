@@ -17,7 +17,8 @@ function Landing() {
                 <img src={script} alt="description" />
                 <h4>Hot Recipes</h4>
             </div>
-          <h1 className='custom-heading'>Spicy delicious chicken wings</h1>
+            <h1 className='custom-heading'>Spicy delicious chicken wings</h1>
+          
           <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim.</p>
           <div className="box-container">
              <div className="box">

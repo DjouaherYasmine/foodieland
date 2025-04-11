@@ -94,9 +94,15 @@
   margin: 10px;
 }
 
-.card-details h3 {
+
+
+.name-card-title{
+  display: flex;
   margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
   font-family: 'Inter', sans-serif;
+
 }
 
 .time-category {
@@ -113,4 +119,16 @@
   height: 20px;
   margin-right: 5px;
   vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .name-card-title {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .name-card-title{
+    font-size: 8px;
+  }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Directions.css";
+import "./directions.css";
 import direct from "../assets/directions.svg";
 
 const directions = [

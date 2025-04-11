@@ -111,7 +111,7 @@ function Recipes() {
 </button>
             </div>
             <div className="card-details">
-              <h3>{card.name}</h3>
+              <h3 className='name-card-title'>{card.name}</h3>
               <div className="time-category">
                 <span>
                   <img src={clockIcon} alt="Clock" className="icon" /> {card.time}

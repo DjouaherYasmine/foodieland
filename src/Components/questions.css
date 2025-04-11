@@ -1,0 +1,156 @@
+/* Wrapper for interview content + social media */
+.interview-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: "Arial", sans-serif;
+    position: relative;
+  }
+  
+  /* Main content area */
+  .interview-container {
+    max-width: 900px;
+    padding-right: 2rem;
+  }
+  
+  .interview-question {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  /* Responsive Image */
+  .interview-image-container {
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .interview-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  /* Blockquote Style */
+  .interview-quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    padding: 2rem;
+    border-left: 4px solid #000;
+    margin: 2rem 0;
+  }
+  
+  .social-share {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Ensure vertical stacking */
+    align-items: center;
+    gap: 1rem; /* Space between icons */
+}
+
+.social-share p {
+    margin-bottom: 0.5rem; /* Space between text & icons */
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.social {
+    display: block;
+    width: 24px; /* Adjust icon size */
+    height: 24px;
+    object-fit: contain; /* Keep proportions */
+    transition: transform 0.3s;
+}
+
+.social:hover {
+    transform: scale(1.1);
+}
+
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .interview-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-share {
+        position: static;
+        flex-direction: row; /* Arrange in a row */
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 0.95rem;
+    }
+  
+    .interview-quote {
+      font-size: 1.3rem;
+    }
+
+    .social-share {
+        flex-direction: column; /* Stack icons again */
+        align-items: center;
+    }
+
+   
+  }
+  
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    .interview-quote {
+      font-size: 1.2rem;
+    }
+  
+    .interview-image {
+      max-width: 100%;
+    }
+
+    .social-share {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .social {
+        width: 20px; /* Adjust size for smaller screens */
+        height: 20px;
+    }
+  }
+  

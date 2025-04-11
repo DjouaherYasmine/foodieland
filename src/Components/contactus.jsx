@@ -1,6 +1,6 @@
 import React from "react";
 import "./contactus.css";
-import chefImage from "../assets/chef3.svg"; // Ensure the image is in the correct path
+import chefImage from "../assets/chef3.svg";
 
 const ContactForm = () => {
   return (

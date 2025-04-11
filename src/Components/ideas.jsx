@@ -112,7 +112,7 @@ function Ideas() {
 </button>
             </div>
             <div className="card-detail">
-              <h3>{card.name}</h3>
+              <h3 className='name-card-title'>{card.name}</h3>
               <div className="time-category">
                 <span>
                   <img src={clockIcon} alt="Clock" className="icon" /> {card.time}

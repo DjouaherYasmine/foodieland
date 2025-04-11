@@ -23,10 +23,10 @@ function Navigation() {
           <NavLink to="/page3" className="nav-item">Blog</NavLink> {/* Link to Page3 */}
         </li>
         <li>
-          <NavLink to="/page4" className="nav-item">Contact</NavLink> {/* Link to Page3 */}
+          <NavLink to="/page4" className="nav-item">Contact</NavLink> {/* Link to Page4 */}
         </li>
         <li>
-          <div className="nav-item">About Us</div>
+          <NavLink to="/page5" className="nav-item">About Us</NavLink> {/* Link to Page5 */}
         </li>
       </ul>
       <ul className="social-icons">
