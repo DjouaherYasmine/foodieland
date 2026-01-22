@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import sushi from '../assets/sushi.svg';
-import salad from '../assets/salad.svg';
-import meat from '../assets/meat.svg';
-import cake from '../assets/cake.svg';
-import sandwich from '../assets/sandwich.svg';
-import chocolate from '../assets/chocolate.svg';
+import sushi from '/sushi.svg';
+import salad from '/salad.svg';
+import meat from '/meat.svg';
+import cake from '/cake.svg';
+import sandwich from '/sandwich.svg';
+import chocolate from '/chocolate.svg';
 import './categories.css';
 
 function Categories() {

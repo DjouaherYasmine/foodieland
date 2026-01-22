@@ -1,6 +1,6 @@
 import React from 'react';
 import './suscribe.css';
-import pic from '../assets/subscribe.svg';
+import pic from '/subscribe.svg';
 
 function Suscribe() {
   return (

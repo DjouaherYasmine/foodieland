@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import burger from '../assets/burger.svg'; 
-import poisson from '../assets/poisson.svg'; 
-import pancake from '../assets/pancake.svg'; 
-import vegy from '../assets/vegy.svg'; 
-import viande from '../assets/viande.svg'; 
-import mandarine from '../assets/mandarine.svg'; 
-import rice from '../assets/rice.svg';
-import pate from '../assets/pate.svg';
-import adImage from '../assets/ads.svg';
-import clockIcon from '../assets/clock.svg';
-import forkIcon from '../assets/fork.svg';
-import heartFill from '../assets/heart_fill.svg'; 
-import heartUnfill from '../assets/heart_unfill.svg';
+import burger from '/burger.svg'; 
+import poisson from '/poisson.svg'; 
+import pancake from '/pancake.svg'; 
+import vegy from '/vegy.svg'; 
+import viande from '/viande.svg'; 
+import mandarine from '/mandarine.svg'; 
+import rice from '/rice.svg';
+import pate from '/pate.svg';
+import adImage from '/ads.svg';
+import clockIcon from '/clock.svg';
+import forkIcon from '/fork.svg';
+import heartFill from '/heart_fill.svg'; 
+import heartUnfill from '/heart_unfill.svg';
 
 
 import './recipes.css';

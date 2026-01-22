@@ -1,9 +1,9 @@
 import React , { useState } from "react";
 import "./recipe_ingredients.css";
-import viande from "../assets/viande.svg";
-import pate from "../assets/pate.svg";
-import rice from "../assets/rice.svg";
-import ads from "../assets/ads.svg";
+import viande from "/viande.svg";
+import pate from "/pate.svg";
+import rice from "/rice.svg";
+import ads from "/ads.svg";
 
 
 function Ingredients(){

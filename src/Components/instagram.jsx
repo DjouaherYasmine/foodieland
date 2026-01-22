@@ -1,9 +1,9 @@
 import React from 'react';
-import post1 from '../assets/post1.svg';
-import post2 from '../assets/post2.svg';
-import post3 from '../assets/post3.svg';
-import post4 from '../assets/post4.svg';
-import instaLogo from '../assets/insta.svg';
+import post1 from '/post1.svg';
+import post2 from '/post2.svg';
+import post3 from '/post3.svg';
+import post4 from '/post4.svg';
+import instaLogo from '/insta.svg';
 import './instagram.css';
 
 function Instagram() {

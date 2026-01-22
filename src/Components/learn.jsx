@@ -1,6 +1,6 @@
 import React from 'react';
 import './learn.css';
-import exampleImage from '../assets/chef.svg'; // Import your image
+import exampleImage from '/chef.svg'; // Import your image
 
 function Learn() {
   return (

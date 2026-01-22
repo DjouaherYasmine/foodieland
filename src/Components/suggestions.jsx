@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import pic1 from '../assets/pic1.svg';
-import pic2 from '../assets/pic2.svg';
-import pic3 from '../assets/pic3.svg';
-import pic4 from '../assets/pic4.svg';
-import pic5 from '../assets/pic5.svg';
-import pic6 from '../assets/pic6.svg';
-import pic7 from '../assets/pic7.svg';
-import pic8 from '../assets/pic8.svg';
-import clockIcon from '../assets/clock.svg';
-import forkIcon from '../assets/fork.svg';
-import heartFill from '../assets/heart_fill.svg'; 
-import heartUnfill from '../assets/heart_unfill.svg';
+import pic1 from '/pic1.svg';
+import pic2 from '/pic2.svg';
+import pic3 from '/pic3.svg';
+import pic4 from '/pic4.svg';
+import pic5 from '/pic5.svg';
+import pic6 from '/pic6.svg';
+import pic7 from '/pic7.svg';
+import pic8 from '/pic8.svg';
+import clockIcon from '/clock.svg';
+import forkIcon from '/fork.svg';
+import heartFill from '/heart_fill.svg'; 
+import heartUnfill from '/heart_unfill.svg';
 
 
 import './suggestions.css';

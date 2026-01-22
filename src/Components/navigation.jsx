@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';  // Import NavLink
-import foodielandLogo from '../assets/foodieland.svg';
-import facebookIcon from '../assets/facebook.svg';
-import twitterIcon from '../assets/twitter.svg';
-import instagramIcon from '../assets/instagram.svg';
+import foodielandLogo from '/foodieland.svg';
+import facebookIcon from '/facebook.svg';
+import twitterIcon from '/twitter.svg';
+import instagramIcon from '/instagram.svg';
 import './navigation.css';
 
 function Navigation() {

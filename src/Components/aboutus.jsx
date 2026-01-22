@@ -1,7 +1,7 @@
 import React from "react";
 import "./aboutus.css";
-import authorImage from "../assets/profile.svg"; // Replace with actual image
-import chefImage from "../assets/chef2.svg"; // Replace with actual image
+import authorImage from "/profile.svg"; // Replace with actual image
+import chefImage from "/chef2.svg"; // Replace with actual image
 
 const Aboutus = () => {
   return (

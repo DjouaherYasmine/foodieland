@@ -1,5 +1,5 @@
 import React from "react";
-import rice from "../assets/pic3.svg";
+import rice from "/pic3.svg";
 import "./recipe_detail.css";
 
 function RecipeDetail() {

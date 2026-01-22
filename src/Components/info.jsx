@@ -1,9 +1,9 @@
 import React from 'react';
-import clock from '../assets/clock.svg';
-import fork from '../assets/fork.svg';
-import profile from '../assets/profile.svg';
-import printer from '../assets/printer.svg';
-import share from '../assets/share.svg';
+import clock from '/clock.svg';
+import fork from '/fork.svg';
+import profile from '/profile.svg';
+import printer from '/printer.svg';
+import share from '/share.svg';
 import './info.css';
 
 function Info() {

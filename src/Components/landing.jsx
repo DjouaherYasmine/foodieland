@@ -1,11 +1,11 @@
 import React from 'react';
-import food from '../assets/food.svg';
-import badge from '../assets/badge.svg'; 
-import script from '../assets/script.svg'; 
-import clock from '../assets/clock.svg'; 
-import fork from '../assets/fork.svg'; 
-import profile from '../assets/profile.svg'; 
-import play from '../assets/play.svg';
+import food from '/food.svg';
+import badge from '/badge.svg'; 
+import script from '/script.svg'; 
+import clock from '/clock.svg'; 
+import fork from '/fork.svg'; 
+import profile from '/profile.svg'; 
+import play from '/play.svg';
 import './landing.css';
 
 function Landing() {

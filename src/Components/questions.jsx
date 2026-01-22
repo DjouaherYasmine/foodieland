@@ -1,9 +1,9 @@
 import React from "react";
 import "./questions.css";
-import cookingImage from "../assets/directions.svg"; // Replace with actual image
-import facebook from "../assets/facebook.svg"; // Icons
-import instagram from "../assets/instagram.svg"; // Icons
-import twitter from "../assets/twitter.svg"; // Icons
+import cookingImage from "/directions.svg"; // Replace with actual image
+import facebook from "/facebook.svg"; // Icons
+import instagram from "/instagram.svg"; // Icons
+import twitter from "/twitter.svg"; // Icons
 
 
 const InterviewSection = () => {

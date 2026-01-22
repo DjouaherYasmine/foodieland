@@ -1,21 +1,21 @@
 import React from 'react';
 import './blog.css';
-import albert from '../assets/albert.svg';
-import chef2 from '../assets/chef2.svg';
-import courtney from '../assets/courtney.svg';
-import dianne from '../assets/dianne.svg';
-import dumplings from '../assets/dumplings.svg';
-import graines from '../assets/graines.svg';
-import lasagne from '../assets/lasagne.svg';
-import hiring from '../assets/hiring.svg';
-import noodles from '../assets/noodles.svg';
-import robert from '../assets/robert.svg';
-import wade from '../assets/wade.svg';
-import fruit from '../assets/pic1.svg';
-import leslie from '../assets/leslie.svg';
-import viande from '../assets/viande.svg';
-import pate from '../assets/pate.svg';
-import adImage from '../assets/ads.svg';
+import albert from '/albert.svg';
+import chef2 from '/chef2.svg';
+import courtney from '/courtney.svg';
+import dianne from '/dianne.svg';
+import dumplings from '/dumplings.svg';
+import graines from '/graines.svg';
+import lasagne from '/lasagne.svg';
+import hiring from '/hiring.svg';
+import noodles from '/noodles.svg';
+import robert from '/robert.svg';
+import wade from '/wade.svg';
+import fruit from '/pic1.svg';
+import leslie from '/leslie.svg';
+import viande from '/viande.svg';
+import pate from '/pate.svg';
+import adImage from '/ads.svg';
 const blogPosts = [
     {
       image: noodles,
